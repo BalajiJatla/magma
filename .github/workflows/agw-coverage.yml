@@ -35,7 +35,7 @@ env:
 
 jobs:
   path_filter:
-    runs-on: ubuntu-20.04
+    runs-on: self-hosted
     outputs:
       should_not_skip: ${{ steps.changes.outputs.filesChanged }}
     steps:
